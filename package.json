@@ -1,0 +1,32 @@
+{
+  "name": "playwright-qa-bench-school",
+  "version": "1.0.0",
+  "description": "QA Automation School ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "playwright": "npx playwright test",
+    "test:chrome": "playwright test --config=playwright.config.ts --project=Chromium",
+    "test:firefox": "playwright test --config=playwright.config.ts --project=Firefox",
+    "test:e2e": "playwright test --config=e2e.config.ts --project=Chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiduramateusz/Playwright.git"
+  },
+  "keywords": [
+    "playwright",
+    "qa",
+    "automation"
+  ],
+  "author": "Mateusz Fidura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fiduramateusz/Playwright/issues"
+  },
+  "homepage": "https://github.com/fiduramateusz/Playwright#readme",
+  "dependencies": {
+    "@playwright/test": "^1.22.2",
+    "prettier": "^2.6.2"
+  }
+}
